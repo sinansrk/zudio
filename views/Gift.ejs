@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift-Card</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/js/bootstrap.bundle.min.js">
+
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+            overflow-y: hidden;
+        }
+
+        .about-section {
+            text-align: center;
+            padding: 80px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .about-section h2 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .about-section p {
+            color: #6c6c6c;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .zudio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer h5 {
+            font-weight: 600;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 30px;
+            padding-top: 15px;
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        @media (max-width: 768px) {
+            .about-section h2 {
+                font-size: 26px;
+            }
+
+            .about-section p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <%- include('Navbar'); %>
+
+        <section class="about-section">
+            <h2>WHO WE ARE</h2>
+            <p>A FASHION BRAND FROM - THE HOUSE OF TATA TRENT LTD</p>
+
+            <h2>WHAT WE DO?</h2>
+            <p>OFFER IRRESISTIBLE FASHION AT IRRESISTIBLE PRICES<br>
+                CONSTANT NEWNESS IN STORE</p>
+
+            <h2>WHERE WE ARE?</h2>
+            <p>CURRENTLY IN 196 CITIES IN INDIA, COMING TO YOUR CITY VERY SOON</p>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row text-center text-md-start zudio">
+                    <div class="col-md-4 mb-3">
+                        <h5>ZUDIO</h5>
+                        <p>Affordable fashion for everyone.Stay trendy, stay Zudio.</p>
+                    </div>
+        </footer>
+
+</body>
+
+</html>

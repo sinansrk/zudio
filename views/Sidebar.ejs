@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/js/bootstrap.bundle.min.js">
+    <style>
+        .sidebar {
+            background-color: #fff;
+            z-index: 5;
+        }
+
+        .sidebar-lists {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+            font-size: 30px;
+            position: fixed;
+            top: 55%;
+            z-index: 5;
+        }
+
+        .anchor {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="sidebar" >
+        <ul class="sidebar-lists" data-aos="fade-right">
+            <a class="anchor" href="/collections/women">Women</a>
+            <a class="anchor" href="/collections/men">Men</a>
+            <a class="anchor" href="/collections/ethnic">Ethnic</a>
+            <a class="anchor" href="/collections/footwear">Footwear</a>
+        </ul>
+    </div>
+
+    <script>
+  AOS.init();
+</script>
+</body>
+
+</html>

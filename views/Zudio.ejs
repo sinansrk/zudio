@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zudio Store Locations</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/js/bootstrap.bundle.min.js">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .store-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .store-section h2 {
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 40px;
+        }
+
+        .store-card {
+            background: #fff;
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .store-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .store-card .card-body {
+            padding: 20px;
+        }
+
+        .store-card h5 {
+            color: #000;
+            font-weight: 600;
+        }
+
+        .store-card p {
+            color: #555;
+            font-size: 15px;
+        }
+
+        .map-link {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 500;
+        }
+
+        .map-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 40px 0;
+            margin-top: 95px;
+            text-align: center;
+        }
+
+        .zudio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer h5 {
+            font-weight: 600;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 30px;
+            padding-top: 15px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <%- include('Navbar'); %>
+
+        <section class="store-section">
+            <div class="container">
+                <h2>Our Zudio Store Locations</h2>
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card store-card">
+                            <div class="card-body">
+                                <h5 class="card-title">Zudio - Bengaluru</h5>
+                                <p>1st Floor, Orion Mall, Rajajinagar, Bengaluru, <br> Karnataka</p>
+                                <a href="" class="map-link">📍 View on Map</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card store-card">
+                            <div class="card-body">
+                                <h5 class="card-title">Zudio - Chennai</h5>
+                                <p>Phoenix Marketcity, Velachery Main Road, Chennai, Tamil Nadu</p>
+                                <a href="" class="map-link">📍 View on Map</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card store-card">
+                            <div class="card-body">
+                                <h5 class="card-title">Zudio - Mumbai</h5>
+                                <p>Ground Floor, R-City Mall, Ghatkopar West, Mumbai, Maharashtra</p>
+                                <a href="" class="map-link">📍 View on Map</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row text-center text-md-start zudio">
+                    <div class="col-md-4 mb-3">
+                        <h5>ZUDIO</h5>
+                        <p>Affordable fashion for everyone.Stay trendy, stay Zudio.</p>
+                    </div>
+
+                    <div class="footer-bottom text-center">
+                        &copy; 2025 Zudio. All rights reserved.
+                    </div>
+                </div>
+        </footer>
+
+</body>
+
+</html>

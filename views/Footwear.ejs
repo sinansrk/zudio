@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/js/bootstrap.bundle.min.js">
+    <style>
+        .body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <%- include('Navbar'); %>
+        <%- include('Sidebar'); %>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/footware/AW_FS_web_banners-20_1950x.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>
