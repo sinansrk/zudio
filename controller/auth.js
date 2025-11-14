@@ -1,35 +1,35 @@
-exports.Home = (req,res)=>{
-    res.render('./Home')
+exports.home = (req,res)=>{
+    return res.render('./home')
 };
 
-exports.Men = (req,res)=>{
-    res.render('./Men')
+exports.men = (req,res)=>{
+   return res.render('./men')
 };
 
-exports.Women = (req,res)=>{
-    res.render('./Women')
+exports.women = (req,res)=>{
+   return res.render('./women')
 };
 
-exports.Ethnic = (req,res)=>{
-    res.render('./Ethnic')
+exports.ethnic = (req,res)=>{
+   return res.render('./ethnic')
 };
 
-exports.Footwear = (req,res)=>{
-    res.render('./Footwear')
+exports.footwear = (req,res)=>{
+   return res.render('./footwear')
 };
 
-exports.Zudio = (req,res)=>{
-    res.render('./Zudio')
+exports.zudio = (req,res)=>{
+   return res.render('./zudio')
 };
 
-exports.World = (req,res)=>{
-    res.render('./World')
+exports.world = (req,res)=>{
+   return res.render('./world')
 };
 
-exports.Stories = (req,res)=>{
-    res.render('./Stories')
+exports.stories = (req,res)=>{
+   return res.render('./stories')
 };
 
-exports.Gift = (req,res)=>{
-    res.render('./Gift')
+exports.gift = (req,res)=>{
+   return res.render('./gift')
 };

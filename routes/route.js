@@ -1,44 +1,44 @@
 const express = require('express');
 const router = express.Router();
 
-const { Home, Men, Women, Ethnic,  Footwear ,Zudio, World, Stories, Gift } = require('../controller/auth')
+const { home, men, women, ethnic,  footwear ,zudio, world, stories, gift } = require('../controller/auth')
 
 
 router
     .route('/')
-    .get(Home)
+    .get(home)
 
     router
     .route('/zudio')
-    .get(Zudio)
+    .get(zudio)
 
     router
     .route('/world')
-    .get(World)
+    .get(world)
 
     router
     .route('/stories')
-    .get(Stories)
+    .get(stories)
 
     router
     .route('/gift')
-    .get(Gift)
+    .get(gift)
 
 router
     .route('/collections/men')
-    .get(Men)
+    .get(men)
 
 router
     .route('/collections/women')
-    .get(Women)
+    .get(women)
 
 router
     .route('/collections/ethnic')
-    .get(Ethnic)
+    .get(ethnic)
 
 router
     .route('/collections/footwear')
-    .get(Footwear)
+    .get(footwear)
 
 
 module.exports = router;
